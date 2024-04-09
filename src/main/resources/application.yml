@@ -1,0 +1,9 @@
+server:
+    port: 8888
+spring:
+    application:
+        name: sharding-jdbc-demo
+    profiles:
+#        多个文件用，隔开
+        active: shardingTable
+
